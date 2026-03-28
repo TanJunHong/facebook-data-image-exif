@@ -1,12 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.addshore.facebook.data.image.exif</groupId>
     <artifactId>facebook-data-image-exif</artifactId>
     <packaging>jar</packaging>
     <version>0.12</version>
     <name>facebook-data-image-exif</name>
-    <url>http://maven.apache.org</url>
+    <url>https://maven.apache.org</url>
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>org.apache.maven</groupId>
             <artifactId>maven-model</artifactId>
-            <version>3.0</version>
+            <version>3.9.9</version>
         </dependency>
         <dependency>
             <groupId>com.jfoenix</groupId>

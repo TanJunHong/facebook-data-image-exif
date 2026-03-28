@@ -10,7 +10,6 @@ Per https://github.com/addshore/facebook-data-image-exif/issues/6#issuecomment-3
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/addshore/facebook-data-image-exif/Java%20CI%20with%20Maven)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
-
 A simple tool, written in Java, to add EXIF data back to images downloaded in a Facebook data export.
 
 Instructions can be found [here](https://addshore.com/2020/04/add-exif-data-back-to-facebook-images-0-10/)
@@ -48,6 +47,7 @@ Navigate to the Github Actions build for the commit that you are looking to rele
 Test the jar locally. =]
 
 Make the release:
+
 - "Draft a new release on Github"
 - Enter the tag for the version you coded in
 - Enter the changelog into the release description
@@ -58,6 +58,7 @@ Make the release:
 
 ## Further Reading
 
-- This tool (in a PHP form) was [originally created in 2016](https://addshore.com/2016/09/add-exif-data-back-to-facebook-images/).
+- This tool (in a PHP form)
+  was [originally created in 2016](https://addshore.com/2016/09/add-exif-data-back-to-facebook-images/).
 - It was [converted to Java in 2018](https://addshore.com/2019/02/add-exif-data-back-to-facebook-images-0-1/)
 - And then most recently updated [in 2020](https://addshore.com/2020/04/add-exif-data-back-to-facebook-images-0-10/)
