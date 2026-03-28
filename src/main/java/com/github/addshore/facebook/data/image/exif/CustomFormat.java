@@ -1,9 +1,7 @@
 package com.github.addshore.facebook.data.image.exif;
 
 import com.thebuzzmedia.exiftool.Format;
-
 import java.util.List;
-
 import static java.util.Collections.singletonList;
 
 /**

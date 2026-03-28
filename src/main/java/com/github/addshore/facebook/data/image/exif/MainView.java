@@ -5,7 +5,6 @@ import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 
 import java.io.IOException;
-import java.util.Objects;
 
 public class MainView {
 
@@ -37,7 +36,7 @@ public class MainView {
     public final CheckBox debugCheckbox;
 
     public MainView() throws IOException {
-        dataEntryView = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("dataEntry.fxml")));
+        dataEntryView = FXMLLoader.load(getClass().getResource("dataEntry.fxml"));
 
         // dirInputGrid pain
         dirInputGrid = (GridPane) dataEntryView.getChildren().get(1);
