@@ -1,5 +1,11 @@
 # Facebook Data Image Exif Tool
 
+Per https://github.com/addshore/facebook-data-image-exif/issues/6#issuecomment-3076037518
+
+**You may want to use the following fork**, as Facebook changed some of the folder names used within the export. https://github.com/TanJunHong/facebook-data-image-exif/tree/master
+
+---------
+
 [![Release](https://img.shields.io/github/release/addshore/facebook-data-image-exif.svg?style=flat-square)](https://github.com/addshore/facebook-data-image-exif/releases/latest)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/addshore/facebook-data-image-exif/Java%20CI%20with%20Maven)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -18,7 +24,7 @@ Downloads can be found on [the releases page!](https://github.com/addshore/faceb
 You need [JDK 11](https://openjdk.java.net/projects/jdk/11/).
 
 ```sh
-sudo apt-get install openjdk-11-jdk
+sudo apt-get install openjdk-11-jdk maven
 ```
 
 You can build a JAR using Maven:
